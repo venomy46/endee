@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+endee
+sentence-transformers
+openai
+requests
+python-dotenv
+httpx
+pydantic
+aiohttp
+beautifulsoup4
+lxml

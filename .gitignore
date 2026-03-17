@@ -1,32 +1,17 @@
+# Environment variables (contains API keys - never commit!)
+.env
 
-# Ignore build directory
-build/
-# Ignore build like directory
-build*/
-# Ignore all files in the build directory
-build/*
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+.conda/
+*.egg-info/
 
-# Ignore tests build directory
-tests/build/
-tests/build*/
+# IDE
+.vscode/settings.json
 
-# Test binaries
-tests/**/ndd_filter_test
-
-# macOS debug symbols
-*.dSYM/
-
-# Sometimes data files are created for tetsing
-data/
-data/*
-
-# VS Code directory
-.vscode/
-.vscode/*
-
-# Frontend
-frontend/
-frontend/*
-
-# DS Store
-.DS_Store
+# Logs
+*.log
+pip_install.log
